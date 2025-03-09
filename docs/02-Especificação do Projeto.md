@@ -7,44 +7,47 @@ Definição do problema e ideia de solução a partir da perspectiva do usuário
 Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
 ## Personas
+### Persona 1
+![image](https://github.com/user-attachments/assets/58333bce-beb8-4bd3-a72e-3a6c6d064904)
 
-Identifique, em torno de, 5 personas. Para cada persona, lembre-se de descrever suas angústicas, frustrações e expectativas de vida relacionadas ao problema. Além disso, defina uma "aparência" para a persona. Para isso, você poderá utilizar sites como [https://this-person-does-not-exist.com/pt#google_vignette](https://this-person-does-not-exist.com/pt) ou https://thispersondoesnotexist.com/ 
+Figura 1 - Primeira Persona
 
-Utilize também como referência o exemplo abaixo:
+### Persona 2
+![image](https://github.com/user-attachments/assets/184cd9ae-2ac5-4699-8517-acb83b68ecbe)
 
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/IntApplicationProject-Template/blob/main/docs/img/AnaClara1.png" alt="Persona1"/>
+Figura 2 - Segunda Persona
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+### Persona 3
+![image](https://github.com/user-attachments/assets/24a444cd-ca92-49c4-94fe-27ac82bd462a)
 
-> **Links Úteis**:
-> 
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+Figura 3 - Terceira Persona
+
+### Persona 4
+![image](https://github.com/user-attachments/assets/4e67e182-ef0d-4493-b4aa-56c4952370cf)
+
+Figura 4 - Quarta Persona
+
+### Persona 5
+![image](https://github.com/user-attachments/assets/acf897df-e5cc-4404-aab8-52f0ec350e54)
+
+Figura 5 - Quinta Persona
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+Com base na análise das personas foram identificadas as seguintes histórias de usuários:
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Ana Clara  | Uma forma de identificar se uma agência é realmente confiável           | Me sentir mais segura ao contratar seus serviços               |
-|Ana Clara       | Ter um mecanismo eficiente e rápido de comunicação                 | Que eu possa sanar todas as minhas dúvidas rapidamente |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
-
+|Bruno | quero playlists dinâmicas que acompanhem a intensidade do meu treino | para que eu tenha motivação extra durante os exercícios. |
+|Bruno | quero poder selecionar músicas com base no BPM | para garantir que a trilha sonora esteja sincronizada com meu ritmo de treino. |
+|Camila | quero playlists que me ajudem a estimular a criatividade durante meu trabalho | para manter um fluxo produtivo sem distrações. |
+|Camila | quero poder alternar entre diferentes gêneros musicais sem trocar de playlist | para que a trilha sonora acompanhe minha inspiração ao longo do dia. |
+|Eduardo | quero playlists instrumentais que me ajudem a manter o foco durante cálculos e análises | para melhorar minha produtividade. |
+|Eduardo | quero a opção de alternar automaticamente entre músicas e podcasts sem precisar sair do aplicativo | para facilitar o fluxo de trabalho. |
+|Rafaela | quero playlists específicas para diferentes momentos de estudo | para que eu possa manter a concentração e otimizar meu tempo de aprendizado. |
+|Rafaela | quero um temporizador integrado às playlists | para que a música mude conforme meu tempo de foco, ajudando a manter meu ritmo de estudos. |
+|Marcelo | quero que o sistema sugira músicas baseadas no meu calendário | para que eu tenha trilhas sonoras adequadas para reuniões, trabalho e viagens. |
+|Marcelo | quero integração com dispositivos inteligentes | para que a música se adapte automaticamente ao ambiente em que estou, proporcionando uma experiência mais fluida. |
 ## Requisitos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
