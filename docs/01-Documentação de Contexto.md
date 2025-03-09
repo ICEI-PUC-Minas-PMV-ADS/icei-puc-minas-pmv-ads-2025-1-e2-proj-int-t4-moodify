@@ -11,7 +11,7 @@ Outro problema enfrentado é a falta de interação e contribuição dos própri
 
 ## Objetivos
 
-Objetivo Geral
+Objetivo Geral  
 Desenvolver uma plataforma inteligente que sugira playlists personalizadas com base no estado emocional do usuário, proporcionando uma experiência musical mais intuitiva e satisfatória.
 
 Objetivos Específicos
