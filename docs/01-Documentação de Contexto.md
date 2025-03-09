@@ -1,43 +1,39 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+A música tem um impacto significativo no bem-estar emocional das pessoas, podendo influenciar o humor, a concentração e até o desempenho em atividades diárias. Com a popularização das plataformas de streaming, o acesso a músicas se tornou mais fácil, mas a curadoria personalizada ainda enfrenta desafios, especialmente quando se trata de adaptar as recomendações musicais ao estado emocional dos usuários.
+
+O Moodify surge como uma solução inovadora para esse cenário, oferecendo uma plataforma que sugere playlists personalizadas com base no humor do usuário. Utilizando tecnologias de inteligência artificial e análise de dados, o sistema busca compreender o estado emocional do usuário e sugerir músicas que possam melhorar ou complementar seu humor, tornando a experiência musical mais envolvente e personalizada.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Com o crescimento das plataformas de streaming, os usuários têm acesso a milhões de músicas, mas esse volume imenso de opções pode tornar a escolha cansativa e pouco eficiente. Muitas vezes, as pessoas buscam músicas que reflitam seu humor ou estado emocional, mas os algoritmos das plataformas atuais nem sempre conseguem entregar recomendações precisas e personalizadas. Além disso, a experiência de descoberta musical pode ser limitada, dificultando a exploração de novas faixas que realmente combinem com os sentimentos e preferências de cada usuário.
+Outro problema enfrentado é a falta de interação e contribuição dos próprios ouvintes na construção das recomendações. A maioria dos serviços sugere músicas com base em dados de reprodução, sem considerar a opinião do usuário de forma ativa. Isso pode resultar em sugestões pouco relevantes ou repetitivas, sem capturar a verdadeira intenção emocional por trás da escolha musical.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Objetivo Geral
+Desenvolver uma plataforma inteligente que sugira playlists personalizadas com base no estado emocional do usuário, proporcionando uma experiência musical mais intuitiva e satisfatória.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Objetivos Específicos
+- Implementar um sistema de reconhecimento de humor baseado em interações do usuário, como respostas a questionários simples, análise de voz ou expressões faciais (caso aplicável).
+- Integrar a plataforma a serviços de streaming para fornecer sugestões musicais em tempo real.
+- Criar um banco de dados que relacione estados emocionais a estilos musicais e faixas específicas.
+- Garantir uma interface amigável e acessível para diferentes perfis de usuários.
+- Melhorar continuamente o algoritmo de recomendação com base no feedback dos usuários.
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+O impacto da música no bem-estar emocional é amplamente reconhecido por estudos científicos, que demonstram sua influência no alívio do estresse, aumento da motivação e regulação emocional. No entanto, apesar do avanço das plataformas de streaming, a maioria ainda não explora plenamente o potencial da inteligência artificial para oferecer recomendações verdadeiramente adaptadas ao humor e às necessidades emocionais do usuário. Atualmente, os algoritmos dependem principalmente do histórico de reprodução, o que resulta em sugestões muitas vezes repetitivas ou pouco alinhadas com o estado emocional do momento.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo. Ou, o grupo poderá consultar e justificar o impacto do problema para o público-alvo por meio de pesquisas em outras fontes. Neste caso, é essencial que todos os dados apresentados estejam acompanhados de suas fontes (conforme padrão ABNT).
+É nesse contexto que o Moodify se justifica: como uma solução inovadora que vai além das recomendações tradicionais, integrando a interação ativa do usuário e técnicas avançadas de inteligência artificial para capturar e interpretar o humor em tempo real. Ao permitir que os ouvintes contribuam de forma direta para as recomendações, o Moodify oferece uma experiência mais personalizada e engajadora, promovendo não apenas a descoberta de novas músicas, mas também uma conexão mais profunda entre a música e as emoções.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Além disso, o projeto possui um grande potencial de aplicação em diversas áreas, incluindo entretenimento e saúde mental. Por exemplo, o Moodify pode ser utilizado como uma ferramenta complementar no tratamento de ansiedade e depressão, ajudando as pessoas a regularem suas emoções por meio de playlists cuidadosamente adaptadas ao seu estado psicológico. Dessa forma, o Moodify não apenas melhora a experiência musical, mas também contribui para o bem-estar emocional dos usuários.
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
+O Moodify é voltado para um público amplo, incluindo:
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+- Estudantes e profissionais que utilizam a música para melhorar a concentração e a produtividade.
+- Amantes da música que desejam recomendações mais precisas e alinhadas ao seu estado emocional.
+- Pessoas que buscam bem-estar emocional e utilizam a música como forma de relaxamento ou estímulo.
+- Usuários de plataformas de streaming que desejam uma curadoria musical mais intuitiva e personalizada.
