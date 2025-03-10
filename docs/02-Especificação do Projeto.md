@@ -48,9 +48,6 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 |Rafaela | quero um temporizador integrado às playlists | para que a música mude conforme meu tempo de foco, ajudando a manter meu ritmo de estudos. |
 |Marcelo | quero que o sistema sugira músicas baseadas no meu calendário | para que eu tenha trilhas sonoras adequadas para reuniões, trabalho e viagens. |
 |Marcelo | quero integração com dispositivos inteligentes | para que a música se adapte automaticamente ao ambiente em que estou, proporcionando uma experiência mais fluida. |
-## Requisitos
-
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
 
 ## Requisitos
 
