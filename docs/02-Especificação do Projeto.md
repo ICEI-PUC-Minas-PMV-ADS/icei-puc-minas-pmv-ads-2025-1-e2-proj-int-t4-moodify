@@ -83,7 +83,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-05| O sistema deve ser capaz de lidar com um grande número de usuários simultâneos, sem comprometer a performance do aplicativo |  ALTA | 
 |RNF-06| A aplicação deve armazenar as preferências e playlists do usuário de forma segura na nuvem, garantindo a recuperação em caso de troca de dispositivo |  MEDIA | 
 |RNF-07| A aplicação deve coletar dados de uso (respeitando a privacidade) para melhorar as sugestões com base no comportamento do usuário |  BAIXA | 
-|RNF-08| A aplicação deve ser projetado para funcionar bem em smartphones (Android e iOS) e também em tablets |  ALTA | 
+|RNF-08| A aplicação deve ser projetada para funcionar bem em smartphones (Android e iOS) e também em tablets |  ALTA | 
 
 ## Restrições
 
@@ -94,7 +94,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |01| Apenas músicas cadastradas no banco de dados poderão ser recomendadas inicialmente.|
 |02| Algumas funcionalidades, como streaming de música, exigirão conexão com a internet.|
 |03| Se a aplicação tiver um modo offline, deve haver um limite para o armazenamento de dados no dispositivo.|
-|04| O app deve funcionar corretamente em diferentes modelos de smartphones, podendo ter variações de desempenho.|
+|04| A aplicação deve funcionar corretamente em diferentes modelos de smartphones, podendo ter variações de desempenho.|
 
 ## Diagrama de Casos de Uso
 
