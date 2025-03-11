@@ -100,6 +100,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 Desenvolvemos o Diagrama de Casos de Uso compondo os principais requisitos essenciais para o desenvolvimento correto da plataforma, para os usuários e dentro do sistema.
 
-![Diagrama de Caso de Uso - Moodify](https://github.com/user-attachments/assets/7a02c2f0-5bce-491a-bbfd-ba81342decbb)
+
+![Diagrama de Caso de Uso - Moodify](https://github.com/user-attachments/assets/7548124c-15a1-42dc-80c1-59802d2b9312)
 
 
