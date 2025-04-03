@@ -1,77 +1,66 @@
 
 # Metodologia
+Este documento apresenta a metodologia adotada para o desenvolvimento do Moodify, garantindo um fluxo de trabalho eficiente e organizado.
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
-
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
-
-## Controle de Versão
-
-A ferramenta de controle de versão adotada no projeto foi o
-[Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-foi utilizado para hospedagem do repositório.
-
-O projeto segue a seguinte convenção para o nome de branches:
-
-- `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
-
-Quanto à gerência de issues, o projeto adota a seguinte convenção para
-etiquetas:
-
-- `documentation`: melhorias ou acréscimos à documentação
-- `bug`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
-
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
-
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
+## Metodologia Adotada
+A metodologia escolhida para o desenvolvimento do Moodify é o Scrum, uma abordagem ágil que permite a adaptação contínua do produto conforme as necessidades dos usuários e do mercado.
 
 ## Gerenciamento de Projeto
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
-
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+O time de desenvolvimento está distribuído da seguinte forma:
+- `Scrum Master`: Pâmella Almeida.
+- `Product Owner`: Wesley Teixeira.
+- `Equipe de Desenvolvimento`: Arthur Silva, Déborah de Faria, Pâmella Almeida, Railan Leão, Virgilio Zenith e Wesley Teixeira.
+- `Equipe de Design`: Wesley Teixeira, Déborah de Faria e Pâmella Almeida.
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+A equipe está utilizando o GitHub para organizar e distribuir as tarefas do projeto, estruturando-se da seguinte maneira:
+- `Backlog`: armazena todas as tarefas que precisam ser desenvolvidas, funcionando como o Product Backlog. Novas atividades identificadas ao longo do projeto também são adicionadas a essa lista.
+- `Doing`: assim que uma tarefa é iniciada, ela é movida para esta etapa.
+- `Done`: reúne as tarefas que passaram pelos testes e pelo controle de qualidade. Neste estágio, nenhuma edição ou revisão adicional é necessária, e a entrega ao usuário já está programada.
+
+![image](https://github.com/user-attachments/assets/8eace536-74d0-48e5-82a0-370cf126ca97)
+
+### Etiquetas
+
+As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:
+- `Bug (Erro no código)`
+- `Desenvolvimento (Development)`
+- `Documentação (Documentation)`
+- `Gerência de Projetos (Project Management)`
+- `Infraestrutura (Infrastructure)`
+- `Testes (Tests)`
+
+<figure> 
+  <img src="https://user-images.githubusercontent.com/100447878/164068979-9eed46e1-9b44-461e-ab88-c2388e6767a1.png"
+</figure> 
+
+### Spring
+Cada sprint terá duração de duas semanas, garantindo entregas contínuas e evolutivas. Durante cada sprint, as funcionalidades serão projetadas, desenvolvidas, testadas e revisadas. Os ponto-chave de cada sprint são:
+- `Planejamento`: Definição das tarefas que serão trabalhadas na sprint.
+- `Revisão`: Demonstração das funcionalidades desenvolvidas.
+- `Retrospectiva`: Análise do que funcionou e o que pode ser melhorado para a próxima sprint.
 
 ### Ferramentas
+As ferramentas empregadas no projeto são
 
-As ferramentas empregadas no projeto são:
+#### • Ferramentas de comunicação:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+> WhatsApp, Discord, Microsoft Teams.
 
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
+Essas ferramentas são completas e essenciais para a gestão da equipe, permitindo chamadas de vídeo, áudio e comunicação via chat, tanto pelo computador quanto pelo smartphone.
 
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+#### • Ferramentas de Desenho de Tela (Wireframing):
+
+> Figma.
+
+Oferece acesso gratuito e uma interface intuitiva, permitindo a criação de wireframes conforme as necessidades do projeto, além de possibilitar a edição colaborativa pela equipe.
+
+#### • Ferramenta de desenho de projeto:
+
+> Kanban.
+
+O quadro Kanban é uma ferramenta de gestão ágil que facilita a visualização das tarefas, limita o trabalho em andamento e otimiza a eficiência do fluxo de trabalho.
