@@ -13,7 +13,7 @@ O time de desenvolvimento está distribuído da seguinte forma:
 - `Scrum Master`: Pâmella Almeida.
 - `Product Owner`: Wesley Teixeira.
 - `Equipe de Desenvolvimento`: Arthur Silva, Déborah de Faria, Pâmella Almeida, Railan Leão, Virgilio Zenith e Wesley Teixeira.
-- `Equipe de Design`: Wesley Teixeira, Déborah de Faria e Pâmella Almeida.
+- `Equipe de Design`: Déborah de Faria, Pâmella Almeida e Wesley Teixeira.
 
 ### Processo
 
