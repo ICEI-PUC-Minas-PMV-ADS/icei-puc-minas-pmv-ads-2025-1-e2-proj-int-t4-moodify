@@ -9,11 +9,11 @@ Este documento descreve os testes de usabilidade a serem realizados no Moodify, 
 2. Objetivos
 
    
-.Avaliar a facilidade de uso da plataforma.
+- Avaliar a facilidade de uso da plataforma.
 
-. Identificar dificuldades enfrentadas pelos usuários.
+- Identificar dificuldades enfrentadas pelos usuários.
 
-. Melhorar a experiência do usuário com base nos feedbacks coletados.
+- Melhorar a experiência do usuário com base nos feedbacks coletados.
 
 
 
