@@ -1,12 +1,12 @@
 # Plano de Testes de Usabilidade
 
-1. Introdução
+##1. Introdução
 
    
 Este documento descreve os testes de usabilidade a serem realizados no Moodify, garantindo que a interface do sistema seja intuitiva, acessível e eficiente para diferentes perfis de usuários.
 
 
-2. Objetivos
+##2. Objetivos
 
    
 - Avaliar a facilidade de uso da plataforma.
@@ -17,7 +17,7 @@ Este documento descreve os testes de usabilidade a serem realizados no Moodify, 
 
 
 
-3. Critérios de Avaliação
+##3. Critérios de Avaliação
 
    
 Os testes de usabilidade considerarão os seguintes aspectos:
@@ -33,8 +33,7 @@ Os testes de usabilidade considerarão os seguintes aspectos:
 
 
 
-
-4. Metodologia
+##4. Metodologia
 
    
 Os testes serão conduzidos por meio de:
