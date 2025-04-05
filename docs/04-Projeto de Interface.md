@@ -29,6 +29,8 @@
 
 ![Playlist](https://github.com/user-attachments/assets/2dc334b8-57b6-426c-8a21-aeceb06a41d0)
 
+Figura 6 - Tela Playlist
+
 
 <h3><b>Tela - Perfil </b></h3>
 <p> A tela perfil apresenta os dados da conta do usuário e seu histórico de interação com a plataforma Moodify. </p>
