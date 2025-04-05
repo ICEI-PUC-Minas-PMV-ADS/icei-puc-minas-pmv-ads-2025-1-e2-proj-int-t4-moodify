@@ -11,9 +11,9 @@ Este documento descreve os testes de usabilidade a serem realizados no Moodify, 
    
 .Avaliar a facilidade de uso da plataforma.
 
-Identificar dificuldades enfrentadas pelos usuários.
+. Identificar dificuldades enfrentadas pelos usuários.
 
-Melhorar a experiência do usuário com base nos feedbacks coletados.
+. Melhorar a experiência do usuário com base nos feedbacks coletados.
 
 
 
@@ -24,8 +24,11 @@ Os testes de usabilidade considerarão os seguintes aspectos:
 
 
 . Facilidade de navegação: Os usuários conseguem encontrar o que procuram com facilidade?
+
 . Clareza das informações: Os textos e mensagens são compreensíveis?
+
 . Tempo de aprendizado: Quanto tempo o usuário leva para se familiarizar com a plataforma?
+
 . Satisfação do usuário: O sistema atende às expectativas?
 
 
@@ -36,8 +39,11 @@ Os testes de usabilidade considerarão os seguintes aspectos:
 Os testes serão conduzidos por meio de:
 
 . Testes presenciais: Usuários selecionados testarão o sistema sob observação.
+
 . Testes remotos: Usuários testarão o sistema e fornecerão feedback online.
+
 . Questionários: Após o uso do sistema, os usuários responderão a perguntas sobre sua experiência.
+
 
 ## Definição de cenários de teste
 
