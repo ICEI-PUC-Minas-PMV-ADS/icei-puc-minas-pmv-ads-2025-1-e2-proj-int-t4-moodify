@@ -1,30 +1,40 @@
 # Plano de Testes de Usabilidade
 
-Os testes de usabilidade permitem avaliar a qualidade da interface com o usuário da aplicação interativa.
+1. Introdução
 
-Um plano de teste de usabilidade deverá conter: 
+   
+Este documento descreve os testes de usabilidade a serem realizados no Moodify, garantindo que a interface do sistema seja intuitiva, acessível e eficiente para diferentes perfis de usuários.
 
-## Definição do(s) objetivo(s)
 
-Antes de iniciar os testes, é essencial definir o que se deseja avaliar na usabilidade do sistema. 
-Alguns exemplos de objetivos são:
-- Verificar se os usuários conseguem concluir tarefas essenciais sem dificuldades.
-- Identificar barreiras na navegação e interação com o sistema.
-- Avaliar a eficiência e a satisfação do usuário ao utilizar a interface.
-- Testar a acessibilidade para diferentes perfis de usuários.
+2. Objetivos
 
-## Seleção dos participantes
+   
+. Avaliar a facilidade de uso da plataforma.
+. Identificar dificuldades enfrentadas pelos usuários.
+. Melhorar a experiência do usuário com base nos feedbacks coletados.
 
-Para garantir que o teste reflita o uso real do sistema, escolha participantes representativos do público-alvo.
 
-**Critérios para selecionar participantes:**
-- Perfis variados (experientes e iniciantes no sistema).
-- Diferentes níveis de familiaridade com tecnologia.
-- Pessoas com necessidades especiais (se aplicável).
+3. Critérios de Avaliação
 
-**Quantidade recomendada:**
-Mínimo: 5 participantes.
-Ideal: Entre 8 e 12 para maior diversidade.
+   
+Os testes de usabilidade considerarão os seguintes aspectos:
+
+
+. Facilidade de navegação: Os usuários conseguem encontrar o que procuram com facilidade?
+. Clareza das informações: Os textos e mensagens são compreensíveis?
+. Tempo de aprendizado: Quanto tempo o usuário leva para se familiarizar com a plataforma?
+. Satisfação do usuário: O sistema atende às expectativas?
+
+
+
+4. Metodologia
+
+   
+Os testes serão conduzidos por meio de:
+
+. Testes presenciais: Usuários selecionados testarão o sistema sob observação.
+. Testes remotos: Usuários testarão o sistema e fornecerão feedback online.
+. Questionários: Após o uso do sistema, os usuários responderão a perguntas sobre sua experiência.
 
 ## Definição de cenários de teste
 
