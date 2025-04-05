@@ -1,36 +1,35 @@
 
 # Projeto de Interface
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
+## User Flow
 
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
+[Descrição]
 
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
+[imagem]
 
-## Diagrama de Fluxo
+<figure> 
+    <figcaption>Figura 1 - Fluxo de Telas
 
-O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema interativo e  muitas vezes sem a necessidade do desenho do design das telas da interface. Isso permite que o design das interações seja bem planejado e gere impacto na qualidade no design do wireframe interativo que será desenvolvido logo em seguida.
+## Protótipo de baixa fidelidade
 
-O diagrama de fluxo pode ser desenvolvido com “boxes” que possuem internamente a indicação dos principais elementos de interface - tais como menus e acessos - e funcionalidades, tais como editar, pesquisar, filtrar, configurar - e a conexão entre esses boxes a partir do processo de interação. Você pode ver mais explicações e exemplos https://www.lucidchart.com/blog/how-to-make-a-user-flow-diagram.
+</figure> 
 
-![Exemplo de Diagrama de Fluxo](img/diagramafluxo2.jpg)
+<h3><b>Tela - Home </b></h3>
+<p> [Descrição] </p>
+  
+[Imagem]
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas de Fluxo”.
+<figure> 
+  <figcaption>Figura 2 - Tela Home
+</figure> 
+<hr>
 
-> **Links Úteis**:
-> - [Fluxograma online: seis sites para fazer gráfico sem instalar nada | Produtividade | TechTudo](https://www.techtudo.com.br/listas/2019/03/fluxograma-online-seis-sites-para-fazer-grafico-sem-instalar-nada.ghtml)
+<h3><b>Tela - Perfil </b></h3>
+<p> A tela perfil apresenta os dados da conta do usuário e seu histórico de interação com a plataforma Moodify. </p>
+  
+![Captura de tela 2025-04-03 181701](https://github.com/user-attachments/assets/e5643a63-b4ce-4fe2-87dd-b955ce80912b)
 
-## Wireframes
-
-![Exemplo de Wireframe](img/wireframe-example.png)
-
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+<figure> 
+  <figcaption>Figura 2 - Tela Perfil
+</figure> 
+<hr>
