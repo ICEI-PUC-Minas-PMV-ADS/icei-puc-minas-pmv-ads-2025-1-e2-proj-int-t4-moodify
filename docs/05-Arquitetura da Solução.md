@@ -27,8 +27,8 @@ A referência abaixo irá auxiliá-lo na geração do artefato “Modelo ER”.
 
 O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
 
+![Projeto base de dados drawio (2)](https://github.com/user-attachments/assets/b2eb752e-478d-468e-95a0-ae93b1067db3)
 
-![Projeto base de dados drawio](https://github.com/user-attachments/assets/6058b090-b50e-470a-8f38-52c14fa09f94)
 
 
 ## Tecnologias Utilizadas
