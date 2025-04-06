@@ -48,44 +48,40 @@ Os testes serão conduzidos por meio de:
 ## 5. Cenários de Teste
 
 - Cadastro e Login
-Cenário: O usuário precisa criar uma conta e acessar o Moodify.
-Tarefa: Criar uma conta e realizar login.
+   Cenário: O usuário precisa criar uma conta e acessar o Moodify.
+   Tarefa: Criar uma conta e realizar login.
 
 
-Métrica: Tempo necessário para completar o processo.
-
-
-Critério de sucesso: O usuário consegue concluir o cadastro e login sem dificuldades.
+   Métrica: Tempo necessário para completar o processo.
+   
+   
+   Critério de sucesso: O usuário consegue concluir o cadastro e login sem dificuldades.
 
 
 - Seleção de Humor e Recomendação de Playlist
-<hr>
-Cenário: O usuário deve escolher seu humor e receber recomendações personalizadas.
-<hr>
-Tarefa: Responder ao questionário e visualizar uma playlist recomendada.
-<hr>
-
-
-Métrica: Facilidade de compreensão das opções e satisfação com a playlist gerada.
-<hr>
-
-Critério de sucesso: O usuário entende as opções de humor e recebe uma playlist relevante.
+   Cenário: O usuário deve escolher seu humor e receber recomendações personalizadas.
+   Tarefa: Responder ao questionário e visualizar uma playlist recomendada.
+   
+   
+   Métrica: Facilidade de compreensão das opções e satisfação com a playlist gerada.
+   
+   
+   Critério de sucesso: O usuário entende as opções de humor e recebe uma playlist relevante.
 
 
 
 
 
 - Interação com a Interface
-Cenário: O usuário deve navegar pela plataforma para descobrir funcionalidades.
-<hr>
-Tarefa: Explorar diferentes seções do Moodify e ajustar preferências.
-<hr>
+   Cenário: O usuário deve navegar pela plataforma para descobrir funcionalidades.
+   Tarefa: Explorar diferentes seções do Moodify e ajustar preferências.
+   
+   
+   Métrica: Tempo necessário para encontrar funcionalidades.
+   
+   
+   Critério de sucesso: O usuário consegue interagir sem precisar de instruções adicionais.
 
-Métrica: Tempo necessário para encontrar funcionalidades.
-<hr>
-
-Critério de sucesso: O usuário consegue interagir sem precisar de instruções adicionais.
-<hr>
 
 
 ## 6. Feedback e Melhorias
