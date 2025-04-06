@@ -38,7 +38,7 @@ As tarefas são, ainda, etiquetadas em função da natureza da atividade e segue
   <img src="https://user-images.githubusercontent.com/100447878/164068979-9eed46e1-9b44-461e-ab88-c2388e6767a1.png"
 </figure> 
 
-### Spring
+### Sprints
 Cada sprint terá duração de duas semanas, garantindo entregas contínuas e evolutivas. Durante cada sprint, as funcionalidades serão projetadas, desenvolvidas, testadas e revisadas. Os ponto-chave de cada sprint são:
 - `Planejamento`: Definição das tarefas que serão trabalhadas na sprint.
 - `Revisão`: Demonstração das funcionalidades desenvolvidas.
