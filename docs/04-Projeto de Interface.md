@@ -3,9 +3,10 @@
 
 ## User Flow
 
-[Descrição]
+O user flow do Moodify guia o usuário desde o login até a criação de playlists personalizadas com base em seu estado emocional. A experiência é intuitiva, focada no bem-estar e na conexão entre humor e música.
 
-[imagem]
+![Untitled](https://github.com/user-attachments/assets/0fbed089-a30a-4f13-901f-4e5e7cffa996)
+
 
 <figure> 
     <figcaption>Figura 1 - Fluxo de Telas
@@ -17,10 +18,41 @@
 <h3><b>Tela - Home </b></h3>
 <p> [Descrição] </p>
   
-[Imagem]
+![image](https://github.com/user-attachments/assets/63f47235-1bdd-42c4-bdb2-fbe4a0836b6b)
 
 <figure> 
-  <figcaption>Figura 2 - Tela Home
+  <figcaption>Figura 1 - Tela Home
+</figure> 
+<hr>
+
+<h3><b>Tela - Cadastro </b></h3>
+<p> [Descrição] </p>
+  
+![image](https://github.com/user-attachments/assets/e7c33da9-f276-4e9e-b120-f0de3ff77a96)
+
+
+<figure> 
+  <figcaption>Figura 2 - Tela Cadastro
+</figure> 
+<hr>
+
+<h3><b>Tela - Login </b></h3>
+<p> [Descrição] </p>
+  
+![image](https://github.com/user-attachments/assets/a80c1c63-7308-4b40-b746-736452c9b39b)
+
+<figure> 
+  <figcaption>Figura 3 - Tela Login
+</figure> 
+<hr>
+
+<h3><b>Tela - Seleção de Humor </b></h3>
+<p> [Descrição] </p>
+  
+![image](https://github.com/user-attachments/assets/33e04249-6915-4dfe-a63b-4eddb5c5330b)
+
+<figure> 
+  <figcaption>Figura 4 - Tela Seleção de Humor
 </figure> 
 <hr>
 
@@ -29,7 +61,7 @@
 
 ![Playlist](https://github.com/user-attachments/assets/2dc334b8-57b6-426c-8a21-aeceb06a41d0)
 
-Figura 6 - Tela Playlist
+Figura 5 - Tela Playlist
 
 
 <h3><b>Tela - Perfil </b></h3>
@@ -38,6 +70,6 @@ Figura 6 - Tela Playlist
 ![Captura de tela 2025-04-03 181701](https://github.com/user-attachments/assets/e5643a63-b4ce-4fe2-87dd-b955ce80912b)
 
 <figure> 
-  <figcaption>Figura 2 - Tela Perfil
+  <figcaption>Figura 6 - Tela Perfil
 </figure> 
 <hr>
