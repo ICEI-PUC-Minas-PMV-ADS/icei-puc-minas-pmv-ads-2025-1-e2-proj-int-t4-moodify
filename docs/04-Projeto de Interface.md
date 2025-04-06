@@ -16,7 +16,7 @@ O user flow do Moodify guia o usuário desde o login até a criação de playlis
 </figure> 
 
 <h3><b>Tela - Home </b></h3>
-<p> [Descrição] </p>
+<p> A tela Home apresenta o Moodify e direciona o usuário para login ou cadastro. </p>
   
 ![image](https://github.com/user-attachments/assets/63f47235-1bdd-42c4-bdb2-fbe4a0836b6b)
 
@@ -26,7 +26,7 @@ O user flow do Moodify guia o usuário desde o login até a criação de playlis
 <hr>
 
 <h3><b>Tela - Cadastro </b></h3>
-<p> [Descrição] </p>
+<p> A tela Cadastro permite criar uma conta inserindo dados pessoais e preferências básicas. </p>
   
 ![image](https://github.com/user-attachments/assets/e7c33da9-f276-4e9e-b120-f0de3ff77a96)
 
@@ -37,7 +37,7 @@ O user flow do Moodify guia o usuário desde o login até a criação de playlis
 <hr>
 
 <h3><b>Tela - Login </b></h3>
-<p> [Descrição] </p>
+<p> A tela Login autentica o usuário para acesso à experiência personalizada. </p>
   
 ![image](https://github.com/user-attachments/assets/a80c1c63-7308-4b40-b746-736452c9b39b)
 
@@ -47,7 +47,7 @@ O user flow do Moodify guia o usuário desde o login até a criação de playlis
 <hr>
 
 <h3><b>Tela - Seleção de Humor </b></h3>
-<p> [Descrição] </p>
+<p> A tela Seleção de Humor coleta o estado emocional atual para gerar playlists personalizadas. </p>
   
 ![image](https://github.com/user-attachments/assets/33e04249-6915-4dfe-a63b-4eddb5c5330b)
 
