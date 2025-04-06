@@ -45,10 +45,9 @@ Os testes serão conduzidos por meio de:
 - Questionários: Após o uso do sistema, os usuários responderão a perguntas sobre sua experiência.
 
 
-## Definição de cenários de teste
+## Cenários de Teste
 
-5. Cenários de Teste
-5.1. Cadastro e Login
+Cadastro e Login
 Cenário: O usuário precisa criar uma conta e acessar o Moodify.
 Tarefa: Criar uma conta e realizar login.
 
@@ -59,7 +58,7 @@ Métrica: Tempo necessário para completar o processo.
 Critério de sucesso: O usuário consegue concluir o cadastro e login sem dificuldades.
 
 
-5.2. Seleção de Humor e Recomendação de Playlist
+Seleção de Humor e Recomendação de Playlist
 Cenário: O usuário deve escolher seu humor e receber recomendações personalizadas.
 Tarefa: Responder ao questionário e visualizar uma playlist recomendada.
 
@@ -73,7 +72,7 @@ Critério de sucesso: O usuário entende as opções de humor e recebe uma playl
 
 
 
-5.3. Interação com a Interface
+Interação com a Interface
 Cenário: O usuário deve navegar pela plataforma para descobrir funcionalidades.
 Tarefa: Explorar diferentes seções do Moodify e ajustar preferências.
 
