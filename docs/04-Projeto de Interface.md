@@ -5,7 +5,7 @@
 
 O user flow do Moodify guia o usuário desde o login até a criação de playlists personalizadas com base em seu estado emocional. A experiência é intuitiva, focada no bem-estar e na conexão entre humor e música.
 
-![Untitled](https://github.com/user-attachments/assets/0fbed089-a30a-4f13-901f-4e5e7cffa996)
+![User Flow](https://github.com/user-attachments/assets/c9a0d77b-cbdb-4fd4-af69-f813823b9c4c)
 
 
 <figure> 
@@ -18,7 +18,7 @@ O user flow do Moodify guia o usuário desde o login até a criação de playlis
 <h3><b>Tela - Home </b></h3>
 <p> A tela Home apresenta o Moodify e direciona o usuário para login ou cadastro. </p>
   
-![image](https://github.com/user-attachments/assets/63f47235-1bdd-42c4-bdb2-fbe4a0836b6b)
+![Home](https://github.com/user-attachments/assets/63f47235-1bdd-42c4-bdb2-fbe4a0836b6b)
 
 <figure> 
   <figcaption>Figura 1 - Tela Home
@@ -28,7 +28,7 @@ O user flow do Moodify guia o usuário desde o login até a criação de playlis
 <h3><b>Tela - Cadastro </b></h3>
 <p> A tela Cadastro permite criar uma conta inserindo dados pessoais e preferências básicas. </p>
   
-![image](https://github.com/user-attachments/assets/e7c33da9-f276-4e9e-b120-f0de3ff77a96)
+![Cadastro](https://github.com/user-attachments/assets/e7c33da9-f276-4e9e-b120-f0de3ff77a96)
 
 
 <figure> 
@@ -39,7 +39,7 @@ O user flow do Moodify guia o usuário desde o login até a criação de playlis
 <h3><b>Tela - Login </b></h3>
 <p> A tela Login autentica o usuário para acesso à experiência personalizada. </p>
   
-![image](https://github.com/user-attachments/assets/a80c1c63-7308-4b40-b746-736452c9b39b)
+![Login](https://github.com/user-attachments/assets/a80c1c63-7308-4b40-b746-736452c9b39b)
 
 <figure> 
   <figcaption>Figura 3 - Tela Login
@@ -49,7 +49,7 @@ O user flow do Moodify guia o usuário desde o login até a criação de playlis
 <h3><b>Tela - Seleção de Humor </b></h3>
 <p> A tela Seleção de Humor coleta o estado emocional atual para gerar playlists personalizadas. </p>
   
-![image](https://github.com/user-attachments/assets/33e04249-6915-4dfe-a63b-4eddb5c5330b)
+![Seleção Humor](https://github.com/user-attachments/assets/33e04249-6915-4dfe-a63b-4eddb5c5330b)
 
 <figure> 
   <figcaption>Figura 4 - Tela Seleção de Humor
