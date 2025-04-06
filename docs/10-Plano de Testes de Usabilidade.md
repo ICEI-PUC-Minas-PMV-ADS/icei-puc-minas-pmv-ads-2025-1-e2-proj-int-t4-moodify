@@ -45,9 +45,9 @@ Os testes serão conduzidos por meio de:
 - Questionários: Após o uso do sistema, os usuários responderão a perguntas sobre sua experiência.
 
 
-## Cenários de Teste
+## 5. Cenários de Teste
 
-Cadastro e Login
+- Cadastro e Login
 Cenário: O usuário precisa criar uma conta e acessar o Moodify.
 Tarefa: Criar uma conta e realizar login.
 
@@ -58,13 +58,16 @@ Métrica: Tempo necessário para completar o processo.
 Critério de sucesso: O usuário consegue concluir o cadastro e login sem dificuldades.
 
 
-Seleção de Humor e Recomendação de Playlist
+- Seleção de Humor e Recomendação de Playlist
+<hr>
 Cenário: O usuário deve escolher seu humor e receber recomendações personalizadas.
+<hr>
 Tarefa: Responder ao questionário e visualizar uma playlist recomendada.
+<hr>
 
 
 Métrica: Facilidade de compreensão das opções e satisfação com a playlist gerada.
-
+<hr>
 
 Critério de sucesso: O usuário entende as opções de humor e recebe uma playlist relevante.
 
@@ -72,21 +75,22 @@ Critério de sucesso: O usuário entende as opções de humor e recebe uma playl
 
 
 
-Interação com a Interface
+- Interação com a Interface
 Cenário: O usuário deve navegar pela plataforma para descobrir funcionalidades.
+<hr>
 Tarefa: Explorar diferentes seções do Moodify e ajustar preferências.
-
+<hr>
 
 Métrica: Tempo necessário para encontrar funcionalidades.
-
+<hr>
 
 Critério de sucesso: O usuário consegue interagir sem precisar de instruções adicionais.
+<hr>
 
 
-
-6. Feedback e Melhorias
+## 6. Feedback e Melhorias
 Os resultados dos testes serão analisados e as melhorias serão priorizadas no backlog de desenvolvimento para garantir uma experiência otimizada.
 
 
-7. Conclusão
+## 7. Conclusão
 Os testes de usabilidade são fundamentais para garantir que o Moodify seja intuitivo e agradável para seus usuários. Os ajustes serão feitos conforme os feedbacks coletados, melhorando continuamente a plataforma.
