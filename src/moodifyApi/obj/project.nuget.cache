@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "9zI7fqOLHNM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Railan Leão\\telas-puc\\icei-puc-minas-pmv-ads-2025-1-e2-proj-int-t4-moodify\\src\\moodifyApi\\moodifyApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Railan Leão\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.4\\microsoft.aspnetcore.openapi.9.0.4.nupkg.sha512",
+    "C:\\Users\\Railan Leão\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
