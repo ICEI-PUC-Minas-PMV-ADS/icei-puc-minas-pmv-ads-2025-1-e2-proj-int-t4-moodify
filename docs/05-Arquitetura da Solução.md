@@ -10,7 +10,8 @@ O diagrama de classes ilustra graficamente como será a estrutura do software, e
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Classes”.
 
-![image](https://github.com/user-attachments/assets/cacaff38-4a61-4905-9087-a4f9f9792d30)
+![diagramaAtualizado](https://github.com/user-attachments/assets/5ee9eeb8-5b6b-4f40-9151-42d40968dcc5)
+
 
 
 ## Modelo ER (Projeto Conceitual)
