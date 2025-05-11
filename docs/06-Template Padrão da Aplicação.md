@@ -29,8 +29,37 @@ Figura 1 - Tela Inicial
 
 #
 
+### Cadastro
+Recebe as informações cadastrais do usuário, como nome, e-mail e data de nascimento, para que o usuário tenha acesso a uma conta com experiência personalizada.
+
+![image](https://github.com/user-attachments/assets/7b81b3b4-1ebe-4774-9cb0-ff073e66d0dc)
+
+Figura 2 - Cadastro
+
+#
+
+### Login
+Permite que o usuário acesse a conta cadastrada.
+
+![image](https://github.com/user-attachments/assets/7dd6190f-d57f-40e7-bb62-89b0118081e6)
+
+Figura 3 - Login
+
+#
+
+
+### Seleção de Humor
+Exibe opções de humor para que o usuário posso personalizar a playlist de acordo com seu humor atual e gêneros favoritos. 
+
+![image](https://github.com/user-attachments/assets/6f193613-a3c0-4c53-8453-c617cfc80bee)
+
+Figura 4 - Seleção de Humor
+
+#
+
+
 A logo da Moodify foi desenvolvida utilizando as cores roxo e laranja como principais elementos visuais. O roxo simboliza criatividade, introspecção e conexão emocional — qualidades essenciais para uma plataforma que adapta músicas ao humor do usuário. Já o laranja representa energia, entusiasmo e dinamismo, reforçando a ideia de movimento e transformação constante. No centro, a letra "M" estilizada em forma de fone de ouvido destaca o foco na música personalizada, enquanto as extremidades que lembram notas musicais ou ondas sonoras evocam ritmo e imersão sonora. A composição como um todo transmite modernidade, acessibilidade e um forte vínculo com a experiência sensorial, alinhando-se ao propósito da marca de transformar estados de espírito por meio da música.
 
 ![image](https://github.com/user-attachments/assets/f245d8ac-36c9-436d-be19-bedbae32faa8)
 
-Figura 3 - Logotipo da Moodify
+Figura 5 - Logotipo da Moodify
