@@ -7,14 +7,8 @@
         public string Artista { get; set; }
         public TimeSpan Duracao { get; set; }
 
-        public List<PlaylistMusica> PlaylistMusicas { get; set; }
-        public List<MusicaHumor> MusicaHumores { get; set; }
-
-        public void AdicionarTagHumor(Humor humor)
-        {
-            MusicaHumores ??= new List<MusicaHumor>();
-            MusicaHumores.Add(new MusicaHumor { Musica = this, Humor = humor });
-        }
+        public ICollection<Humor> Humores { get; set; }
+        public ICollection<Playlist> Playlists { get; set; }
     }
 
 }

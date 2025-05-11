@@ -6,11 +6,13 @@
         public string Nome { get; set; }
         public string Email { get; set; }
 
-        public List<UsuarioHumor> HumoresAtuais { get; set; }
-        public List<Playlist> Playlists { get; set; }
+        public ICollection<Humor> HumoresAtuais { get; set; }
+        public ICollection<Playlist> Playlists { get; set; }
 
-        public List<Humor> SelecionarHumor() => HumoresAtuais?.Select(uh => uh.Humor).ToList();
-
-
+        public Usuario(string nome, string email) 
+        {
+            Nome = nome;
+            Email = email;
+        }
     }
 }

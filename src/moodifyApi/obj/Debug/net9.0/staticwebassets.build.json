@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "muMHFvoKfeB+oJR/PnGvcOn6tZ7aufMXTDb/QCeqTxI=",
+  "Source": "moodifyApi",
+  "BasePath": "_content/moodifyApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

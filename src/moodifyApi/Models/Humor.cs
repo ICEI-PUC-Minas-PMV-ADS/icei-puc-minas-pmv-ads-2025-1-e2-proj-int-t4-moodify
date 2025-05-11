@@ -7,9 +7,8 @@
         public string Icone { get; set; }
         public string Cor { get; set; }
 
-        public List<UsuarioHumor> UsuarioHumores { get; set; }
-        public List<MusicaHumor> MusicasRelacionadas { get; set; }
-        public List<Recomendacao> Recomendacoes { get; set; }
+        public ICollection<Musica> Musicas { get; set; }
+        public ICollection<Usuario> Usuarios { get; set; }
 
         public List<Humor> MatchSimilar(List<Humor> todos)
         {
