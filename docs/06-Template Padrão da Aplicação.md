@@ -57,9 +57,19 @@ Figura 4 - Seleção de Humor
 
 #
 
+### Playlist
 
+A tela Playlist apresenta o histórico de músicas escutadas e a lista de músicas marcadas como favoritos na plataforma Moodify.
+
+
+![Playlist](https://github.com/user-attachments/assets/01c2f3cb-2ae4-44d2-9ba2-cf143aa2371f)
+
+
+Figura 5 - Playlist
+
+#
 A logo da Moodify foi desenvolvida utilizando as cores roxo e laranja como principais elementos visuais. O roxo simboliza criatividade, introspecção e conexão emocional — qualidades essenciais para uma plataforma que adapta músicas ao humor do usuário. Já o laranja representa energia, entusiasmo e dinamismo, reforçando a ideia de movimento e transformação constante. No centro, a letra "M" estilizada em forma de fone de ouvido destaca o foco na música personalizada, enquanto as extremidades que lembram notas musicais ou ondas sonoras evocam ritmo e imersão sonora. A composição como um todo transmite modernidade, acessibilidade e um forte vínculo com a experiência sensorial, alinhando-se ao propósito da marca de transformar estados de espírito por meio da música.
 
 ![image](https://github.com/user-attachments/assets/f245d8ac-36c9-436d-be19-bedbae32faa8)
 
-Figura 5 - Logotipo da Moodify
+Figura 6 - Logotipo da Moodify
