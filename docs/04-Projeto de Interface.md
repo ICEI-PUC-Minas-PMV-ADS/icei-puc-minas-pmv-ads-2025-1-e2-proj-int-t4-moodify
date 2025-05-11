@@ -2,7 +2,7 @@
 # Projeto de Interface
 
 ## User Flow
-
+O User Flow apresentado na figura 1 mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é específica na seção de Protótipo de baixa fidelidade que se segue. Para visualizar o protótipo interativo, acesse o https://www.figma.com/design/BESeDdDfkpRaj5SNCBajQh/Untitled?t=rUNqYjEcUlY2TVOg-0
 O user flow do Moodify guia o usuário desde o login até a criação de playlists personalizadas com base em seu estado emocional. A experiência é intuitiva, focada no bem-estar e na conexão entre humor e música.
 
 ![User Flow](https://github.com/user-attachments/assets/c9a0d77b-cbdb-4fd4-af69-f813823b9c4c)
