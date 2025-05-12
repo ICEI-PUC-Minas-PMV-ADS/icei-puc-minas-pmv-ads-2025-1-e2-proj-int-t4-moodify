@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Minha Música</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #121212;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Navbar */
+    .navbar {
+      background-color: #000;
+    }
+
+    .navbar-brand {
+      color: white;
+      font-weight: bold;
+    }
+
+    .nav-link {
+      color: white !important;
+      transition: color 0.3s ease;
+    }
+
+    .nav-link:hover {
+      color: #ef4029 !important;
+    }
+
+    .nav-link.active {
+      font-weight: bold;
+      color: #ef4029 !important;
+      border-bottom: 2px solid #ef4029;
+    }
+
+    .nav-style {
+      color: white !important;
+      transition: color 0.3s ease;
+    }
+
+    .nav-style:hover {
+      color: #ef4029 !important;
+    }
+
+    .nav-style.active {
+      font-weight: bold;
+      color: #ef4029 !important;
+      border-bottom: 2px solid #ef4029;
+    }
+
+    .container-section {
+      display: none;
+      padding: 20px;
+    }
+
+    .container-section.active {
+      display: block;
+    }
+
+    .playlist-container {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      height: 100%;
+      overflow-y: auto;
+    }
+
+    .box {
+      background-color: #1e1e1e;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+      width: 48%;
+      height: 100%;
+      overflow-y: auto;
+    }
+
+    h1 {
+      color: #ef4029;
+    }
+
+    .highlight-purple {
+      color: #a7299e;
+    }
+
+    .music-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .music-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      border-bottom: 1px solid #333;
+    }
+
+    .music-item:last-child {
+      border-bottom: none;
+    }
+
+    .favorite {
+      cursor: pointer;
+      color: #ef4029;
+      font-size: 1.2em;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg px-4">
+    <a class="navbar-brand" href="#">Moodify</a>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-style active" href="home.html">Sobre</a></li>
+        <li class="nav-item"><a class="nav-link" href="#" data-target="playlist">Playlist</a></li>
+        <li class="nav-item"><a class="nav-style" href="vibe.html" data-target="playlist">Minha Vibe</a></li>        <!-- <li class="nav-item"><a class="nav-link" href="#" data-target="biblioteca">Minha Biblioteca</a></li> -->
+        <li class="nav-item"><a class="nav-style" href="perfil.html">Minha Conta</a></li>
+        <!-- <li class="nav-item"><a class="nav-link" href="#" data-target="contato">Contato</a></li> -->
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Seções -->
+  <div id="sobre" class="container-section active">
+    <h1>Sobre</h1>
+    <p>Bem-vindo ao seu app de músicas! Aqui você pode acompanhar seu histórico, favoritos e mais.</p>
+  </div>
+
+  <div id="playlist" class="container-section">
+    <div class="playlist-container">
+      <div class="box">
+        <h1 class="highlight-purple">Histórico de Músicas</h1>
+        <ul id="history-list" class="music-list">
+            <li class="music-item"><span class="song-title">Pink Floyd - Wish You Were Here</span><span class="favorite">☆</span></li>
+            <li class="music-item"><span class="song-title">One More Light - Linkin Park</span><span class="favorite">☆</span></li>
+            <li class="music-item"><span class="song-title">Lady Gaga, Bruno Mars - Die With A Smile</span><span class="favorite">☆</span></li>
+            <li class="music-item"><span class="song-title">Post Malone - Better Now</span><span class="favorite">☆</span></li>
+            <li class="music-item"><span class="song-title">Arctic Monkeys - Teddy Picker</span><span class="favorite">☆</span></li>
+            <li class="music-item"><span class="song-title">Twenty one pilots - Ride</span><span class="favorite">☆</span></li>
+            <li class="music-item"><span class="song-title">Oasis - Don't Look Back In Anger</span><span class="favorite">☆</span></li>
+            <li class="music-item"><span class="song-title">Tame Impala - The Less I Know The Better</span><span class="favorite">☆</span></li>
+            <li class="music-item"><span class="song-title">Old Gods of Asgard - Herald of Darkness (Alan Wake 2)</span><span class="favorite">☆</span></li>
+            <li class="music-item"><span class="song-title">Pearl Jam - Black</span><span class="favorite">☆</span></li>
+            <li class="music-item"><span class="song-title">Hozier - Too Sweet</span><span class="favorite">☆</span></li>
+            <li class="music-item"><span class="song-title">Eminem - Mockingbird</span><span class="favorite">☆</span></li>
+            <li class="music-item"><span class="song-title">Lynyrd Skynyrd - Freebird</span><span class="favorite">☆</span></li>
+            <li class="music-item"><span class="song-title">Mr.Kitty - After Dark</span><span class="favorite">☆</span></li>
+            <li class="music-item"><span class="song-title">Red Hot Chili Peppers - Dark Necessities</span><span class="favorite">☆</span></li>
+            <li class="music-item"><span class="song-title">Radiohead - Creep</span><span class="favorite">☆</span></li>
+            <li class="music-item"><span class="song-title">Black Sabbath - Paranoid</span><span class="favorite">☆</span></li>
+            <li class="music-item"><span class="song-title">Guns N' Roses - November Rain</span><span class="favorite">☆</span></li>
+            <li class="music-item"><span class="song-title">Johnny Cash - Hurt</span><span class="favorite">☆</span></li>
+            <li class="music-item"><span class="song-title">System Of A Down - Aerials</span><span class="favorite">☆</span></li>
+            <li class="music-item"><span class="song-title">Metallica: Nothing Else Matters</span><span class="favorite">☆</span></li>
+            <li class="music-item"><span class="song-title">Queen – Bohemian Rhapsody</span><span class="favorite">☆</span></li>
+        </ul>
+      </div>
+
+      <div class="box">
+        <h1 class="highlight-purple">Favoritos</h1>
+        <ul id="favorites-list" class="music-list"></ul>
+      </div>
+    </div>
+  </div>
+
+  <div id="biblioteca" class="container-section">
+    <h1>Minha Biblioteca</h1>
+    <p>Você poderá ver seus álbuns, playlists salvas e muito mais.</p>
+  </div>
+
+  <div id="conta" class="container-section">
+    <h1>Minha Conta</h1>
+    <p>Gerencie suas informações de perfil aqui.</p>
+  </div>
+
+  <div id="contato" class="container-section">
+    <h1>Contato</h1>
+    <p>Entre em contato conosco para dúvidas ou sugestões.</p>
+  </div>
+
+  <!-- Scripts -->
+  <script>
+    // Alternar seções pelo menu
+    document.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelectorAll('.nav-link').forEach(nav => nav.classList.remove('active'));
+        document.querySelectorAll('.container-section').forEach(sec => sec.classList.remove('active'));
+
+        this.classList.add('active');
+        document.getElementById(this.getAttribute('data-target')).classList.add('active');
+      });
+    });
+
+    // Favoritar músicas
+    document.addEventListener('DOMContentLoaded', function () {
+      let favList = document.getElementById('favorites-list');
+      let historyList = document.getElementById('history-list');
+
+      document.addEventListener('click', function (event) {
+        if (event.target.classList.contains('favorite')) {
+          let songElement = event.target.closest('.music-item');
+          let songText = songElement.querySelector('.song-title').textContent.trim();
+          let parentList = songElement.parentNode.id;
+
+          if (parentList === 'history-list') {
+            addToFavorites(songElement, songText);
+          } else if (parentList === 'favorites-list') {
+            removeFromFavorites(songElement, songText);
+          }
+        }
+      });
+
+      function addToFavorites(songElement, songText) {
+        let existingFavorite = Array.from(favList.children).find(fav =>
+          fav.querySelector('.song-title').textContent.trim() === songText
+        );
+
+        if (!existingFavorite) {
+          let songClone = songElement.cloneNode(true);
+          let favButton = songClone.querySelector('.favorite');
+
+          favButton.textContent = '★';
+          favButton.addEventListener('click', function () {
+            removeFromFavorites(songClone, songText);
+          });
+
+          favList.appendChild(songClone);
+          updateOriginalButton(songText, '★');
+        }
+      }
+
+      function removeFromFavorites(songElement, songText) {
+        songElement.remove();
+        updateOriginalButton(songText, '☆');
+      }
+
+      function updateOriginalButton(songText, symbol) {
+        document.querySelectorAll('.music-item').forEach(original => {
+          if (original.querySelector('.song-title').textContent.trim() === songText) {
+            original.querySelector('.favorite').textContent = symbol;
+          }
+        });
+      }
+    });
+  </script>
+
+</body>
+</html>
