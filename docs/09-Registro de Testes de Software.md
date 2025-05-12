@@ -11,7 +11,6 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 
 https://github.com/user-attachments/assets/ae3773e2-b9ff-4f0c-b009-21689992186b
 
- |
 
 ## Relatório de testes de software
 
