@@ -11,10 +11,14 @@ O registro de testes de usabilidade é um documento ou planilha onde são coleta
 
 ## Tabela de registro dos testes de usabilidade  
 
-**Cenário 1**: 
+**Cenário 1**: O Usuário deseja entrar na plataforma modify para ouvir suas músicas. Para isso, precisa realizar o seu login.
 | **Usuário**   | **Tempo Total (seg)** | **Quantidade de cliques** | **Tarefa foi concluída?** (Sim/Não) | **Erros Cometidos** | **Feedback do Usuário** |
 |-------------|--------------------|---------------------------------|-----------------|------------------------|------------------------------|
-| Usuário    |                    |                                 |                 |                        |                              |                     |      
+| Victor Cesar | 5 segundos            |         3       |        Sim         |  Nenhum erro cometido. Login realizado com sucesso  |  Etá tudo certo.     |                     |      
+| Usuário   2 |                    |                                 |                 |                        |                              |                     |      
+| Usuário   3 |                    |                                 |                 |                        |                              |                     |      
+| Usuário   4 |                    |                                 |                 |                        |                              |                     |      
+
 
 **Cenário 2**:         
 | **Usuário**  | **Tempo Total (seg)** | **Quantidade de cliques** | **Tarefa foi concluída?** (Sim/Não) | **Erros Cometidos** | **Feedback do Usuário** |
