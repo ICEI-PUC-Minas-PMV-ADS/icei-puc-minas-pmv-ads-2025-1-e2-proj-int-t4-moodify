@@ -36,7 +36,7 @@ Para registrar os indicadores de cada cenário, é preciso manter a coerência c
 
 | **Usuário**  | **Tempo Total (seg)** | **Quantidade de cliques** | **Tarefa foi concluída?** (Sim/Não) | **Erros Cometidos** | **Feedback do Usuário** |
 |-------------|--------------------|---------------------------------|-----------------|------------------------|------------------------------|
-| Usuário 1   |       2 segundos             |3 ou 4                 |  sim               |                        |                              |                     |      
+| Usuário 1   |       2 segundos             |3 ou 4                 |  sim         | Conecte-se ao Spotify primeiro para criar playlists!     |   Está tudo nos conformes.                           |                     |      
 | Usuário 2   |                    |                                 |                 |                        |                              |                     |      
 | Usuário 3   |                    |                                 |                 |                        |                              |                     |  
 | Usuário 4   |                    |                                 |                 |                        |                              |                     | 
