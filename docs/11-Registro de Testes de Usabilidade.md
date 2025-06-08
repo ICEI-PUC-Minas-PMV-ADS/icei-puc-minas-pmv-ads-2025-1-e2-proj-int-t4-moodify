@@ -11,7 +11,7 @@ O registro de testes de usabilidade é um documento ou planilha onde são coleta
 
 ## Tabela de registro dos testes de usabilidade  
 
-**Cenário 1**: O usuário deseja comprar um notebook para uso pessoal. Para isso, ele deverá entrar no site www.compras.com.br para buscar opções disponíveis, comparar preços, adicionar o produto ao carrinho e finalizar a compra com pagamento via cartão de crédito.         
+**Cenário 1**: 
 | **Usuário**   | **Tempo Total (seg)** | **Quantidade de cliques** | **Tarefa foi concluída?** (Sim/Não) | **Erros Cometidos** | **Feedback do Usuário** |
 |-------------|--------------------|---------------------------------|-----------------|------------------------|------------------------------|
 | Usuário    |                    |                                 |                 |                        |                              |                     |      
