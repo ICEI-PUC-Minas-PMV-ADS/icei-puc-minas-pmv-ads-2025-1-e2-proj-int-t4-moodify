@@ -33,9 +33,9 @@ Para registrar os indicadores de cada cenário, é preciso manter a coerência c
 
 **Cenário 3**: O usuário deseja acessar a seleção de humor do aplicativo para identificar qual a música que deseja escutar de acordo com seu humor.      
 | **Usuário**  | **Tempo Total (seg)** | **Quantidade de cliques** | **Tarefa foi concluída?** (Sim/Não) | **Erros Cometidos** | **Feedback do Usuário** |
-|-------------|--------------------|---------------------------------|-----------------|------------------------|------------------------------|
-| Usuário 1   |     2 segundos               3 ou 4                       sim            Conecte-se ao Spotify primeiro para criar playlists!    Está tudo nos conformes.
-              |                                 |                 |                        |                              |                     |      
+|-------------|2 segundos   |  3 ou 4 |sim| Conecte-se ao Spotify primeiro para criar playlists! |Está tudo nos conformes.|
+| Usuário 1   |     
+              |                    |                                 |                 |                        |                              |      
 | Usuário 2   |                    |                                 |                 |                        |                              |                     |      
 | Usuário 3   |                    |                                 |                 |                        |                              |                     |  
 | Usuário 4   |                    |                                 |                 |                        |                              |                     | 
