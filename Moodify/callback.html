@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conectando ao Spotify...</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #1db954, #191414);
+            color: white;
+        }
+        .container {
+            text-align: center;
+            padding: 2rem;
+        }
+        .loading {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #1db954;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 2s linear infinite;
+            margin: 0 auto;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="loading">Conectando ao Spotify...</div>
+        <div class="spinner"></div>
+        <p>Aguarde enquanto configuramos sua experiência musical!</p>
+    </div>
+
+    <script>
+        // Extrai o código de autorização da URL
+        function getAuthCodeFromUrl() {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get('code');
+        }
+
+        // Extrai erros da URL
+        function getErrorFromUrl() {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get('error');
+        }
+
+        // Processa o callback do Spotify
+        async function handleSpotifyCallback() {
+            const error = getErrorFromUrl();
+            
+            if (error) {
+                alert(`Erro na autenticação: ${error}`);
+                window.location.href = 'vibe.html';
+                return;
+            }
+
+            const code = getAuthCodeFromUrl();
+            
+            if (code) {
+                try {
+                    // Troca o código por um token de acesso
+                    const response = await fetch('forms/spotify_auth.php', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({ code: code })
+                    });
+
+                    const data = await response.json();
+                    
+                    if (data.access_token) {
+                        // Salva o token no localStorage
+                        localStorage.setItem('spotify_access_token', data.access_token);
+                        
+                        // Redireciona para a página principal
+                        setTimeout(() => {
+                            window.location.href = 'vibe.html';
+                        }, 2000);
+                    } else {
+                        throw new Error(data.error || 'Erro ao obter token');
+                    }
+                } catch (error) {
+                    console.error('Erro no callback:', error);
+                    alert('Erro na autenticação do Spotify. Tente novamente.');
+                    window.location.href = 'vibe.html';
+                }
+            } else {
+                // Nenhum código encontrado
+                alert('Código de autorização não encontrado.');
+                window.location.href = 'vibe.html';
+            }
+        }
+
+        // Executa quando a página carrega
+        handleSpotifyCallback();
+    </script>
+</body>
+</html> 

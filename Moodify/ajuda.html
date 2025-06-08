@@ -1,0 +1,397 @@
+<?php require_once 'forms/check_session.php'; ?>
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Moodify</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="" rel="icon">
+  <link href="" rel="apple-touch-icon">
+
+  <!-- Fontes -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Arquivos Vendor CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="vendor/aos/aos.css" rel="stylesheet">
+  <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Arquivo Principal do CSS -->
+  <link href="css/main.css" rel="stylesheet">
+  
+  <!-- Estilos customizados para a página de ajuda -->
+  <style>
+    .recent-posts article:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 25px rgba(142, 53, 160, 0.4) !important;
+    }
+    
+    .recent-posts .post-img div:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s ease;
+    }
+    
+    .faq-item {
+      background: #2a2a2a;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+      padding: 1.5rem;
+      transition: all 0.3s ease;
+    }
+    
+    .faq-item:hover {
+      background: #333;
+      box-shadow: 0 4px 15px rgba(142, 53, 160, 0.2);
+    }
+    
+    .faq-item h3 {
+      color: #8E35A0 !important;
+    }
+    
+    .faq-item .faq-content p {
+      color: #cda45e !important;
+    }
+    
+    .faq-toggle {
+      color: #8E35A0 !important;
+      transition: transform 0.3s ease;
+    }
+    
+    .faq-content {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease;
+    }
+    
+    .faq-active .faq-content {
+      max-height: 200px;
+    }
+    
+    /* Responsividade melhorada */
+    @media (max-width: 768px) {
+      .recent-posts article {
+        margin-bottom: 2rem;
+      }
+      
+      .recent-posts .post-img div {
+        height: 150px !important;
+      }
+    }
+  </style>
+
+</head>
+
+<body class="about-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="vibe.html" class="logo d-flex align-items-center">
+        <h1 class="sitename">Moodify</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="vibe.html">Minha Vibe</a></li>
+          <li><a href="perfil.html">Perfil</a></li>
+          <li><a href="ajuda.html" class="active">Ajuda</a></li>
+          <li><a href="#" onclick="logout()">Sair</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Titulo da Página -->
+    <div class="page-title" data-aos="fade">
+      <div class="heading">
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8">
+              <h1>Central de Ajuda</h1>
+              <p class="mb-0">Encontre respostas para suas dúvidas sobre o Moodify e aproveite ao máximo sua experiência musical!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="breadcrumbs">
+        <div class="container">
+          <ol>
+            <li><a href="vibe.html">Minha Vibe</a></li>
+            <li class="current">Ajuda</li>
+          </ol>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Seção de Perfil -->
+    <section id="faq" class="faq section">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="content px-xl-5">
+              <h3><span> Perguntas </span><strong> Frequentes</strong></h3>
+              <p>
+                Confira as dúvidas mais pedidas
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="faq-container">
+              <div class="faq-item faq-active">
+                <h3><span class="num">1.</span> <span>Como a Moodify identifica meu humor para sugerir playlists?</span></h3>
+                <div class="faq-content">
+                  <p> A Moodify utiliza os dados fornecidos pelo usuário, como escolha de emojis, palavras-chave e padrões de uso, para identificar seu estado emocional e sugerir playlists personalizadas que combinam com o momento. Para experimentar <a href="vibe.html" target="_blank" rel="noopener"><strong>clique aqui</strong></a> e confira.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+
+              <div class="faq-item">
+                <h3><span class="num">2.</span> <span>Posso personalizar as sugestões de música manualmente?</span></h3>
+                <div class="faq-content">
+                  <p>Sim, você pode ajustar suas preeferências nas configurações ou interagir com as músicas (curtir, pulas, salvar) para refinar as recomendações. Também é possível eescolher o humor manualmente, caso não queira usar o modo automático.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+
+              <div class="faq-item">
+                <h3><span class="num">3.</span> <span>A Moodify é compatível com quais dispositivos?</span></h3>
+                <div class="faq-content">
+                  <p>Moodify está disponível para smartphones (iOS e Android), tablets e navegadores de desktop. Em breve, também será integrada com smartwatches e assistentes de voz.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+
+              <div class="faq-item">
+                <h3><span class="num">4.</span> <span>Como a Moodify protege meus dados pessoas e emocionais?</span></h3>
+                <div class="faq-content">
+                  <p>Levamos sua privacidade a sério. Todas as informações fornecidas são criptografas e usadas exclusivamente para melhorar sua experiência dentro da plataforma. Não compartilhamos dados com terceiros.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section> 
+
+    <!-- Seção de Perguntas Recentes -->
+    <section id="recent-posts" class="recent-posts section" style="background: #1a1a1a; padding: 4rem 0;">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2 style="color: #8E35A0;">Perguntas Recentes</h2>
+        <p style="color: #cda45e;">Confira as dúvidas mais recentes da nossa comunidade</p>
+      </div>
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <article style="background: #2a2a2a; border-radius: 15px; padding: 1.5rem; height: 100%; box-shadow: 0 4px 15px rgba(142, 53, 160, 0.3); transition: transform 0.3s ease, box-shadow 0.3s ease;">
+
+              <div class="post-img" style="margin-bottom: 1rem;">
+                <div style="background: linear-gradient(135deg, #8E35A0, #1db954); height: 200px; border-radius: 10px; display: flex; align-items: center; justify-content: center;">
+                  <i class="bi bi-spotify" style="font-size: 3rem; color: white;"></i>
+                </div>
+              </div>
+
+              <p class="post-category" style="color: #8E35A0; font-weight: bold; margin-bottom: 0.5rem;">Sobre Parcerias</p>
+
+              <h3 class="title" style="margin-bottom: 1rem;">
+                <a href="#" style="color: #cda45e; text-decoration: none; font-size: 1.2rem; line-height: 1.4;">Moodify vai integrar com o Spotify ou outras plataformas?</a>
+              </h3>
+
+              <div class="d-flex align-items-center" style="margin-top: auto;">
+                <div class="post-meta">
+                  <p class="post-author" style="color: #b3b3b3; margin: 0;">Para mais informações sobre integrações, <a href="vibe.html" target="_blank" rel="noopener" style="color: #8E35A0; text-decoration: none;"><strong>clique aqui</strong></a>.</p>
+                </div>
+              </div>
+
+            </article>
+          </div>
+
+          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <article style="background: #2a2a2a; border-radius: 15px; padding: 1.5rem; height: 100%; box-shadow: 0 4px 15px rgba(142, 53, 160, 0.3); transition: transform 0.3s ease, box-shadow 0.3s ease;">
+
+              <div class="post-img" style="margin-bottom: 1rem;">
+                <div style="background: linear-gradient(135deg, #ff6b35, #8E35A0); height: 200px; border-radius: 10px; display: flex; align-items: center; justify-content: center;">
+                  <i class="bi bi-people-fill" style="font-size: 3rem; color: white;"></i>
+                </div>
+              </div>
+
+              <p class="post-category" style="color: #ff6b35; font-weight: bold; margin-bottom: 0.5rem;">Sobre Interações</p>
+
+              <h3 class="title" style="margin-bottom: 1rem;">
+                <a href="#" style="color: #cda45e; text-decoration: none; font-size: 1.2rem; line-height: 1.4;">É possível criar playlists colaborativas com amigos?</a>
+              </h3>
+
+              <div class="d-flex align-items-center" style="margin-top: auto;">
+                <div class="post-meta">
+                  <p class="post-author" style="color: #b3b3b3; margin: 0;">Para saber mais sobre recursos sociais, <a href="perfil.html" target="_blank" rel="noopener" style="color: #ff6b35; text-decoration: none;"><strong>clique aqui</strong></a>.</p>
+                </div>
+              </div>
+
+            </article>
+          </div>
+
+          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <article style="background: #2a2a2a; border-radius: 15px; padding: 1.5rem; height: 100%; box-shadow: 0 4px 15px rgba(142, 53, 160, 0.3); transition: transform 0.3s ease, box-shadow 0.3s ease;">
+
+              <div class="post-img" style="margin-bottom: 1rem;">
+                <div style="background: linear-gradient(135deg, #29cc61, #47aeff); height: 200px; border-radius: 10px; display: flex; align-items: center; justify-content: center;">
+                  <i class="bi bi-plus-circle-fill" style="font-size: 3rem; color: white;"></i>
+                </div>
+              </div>
+
+              <p class="post-category" style="color: #29cc61; font-weight: bold; margin-bottom: 0.5rem;">Sobre Adicionais</p>
+
+              <h3 class="title" style="margin-bottom: 1rem;">
+                <a href="#" style="color: #cda45e; text-decoration: none; font-size: 1.2rem; line-height: 1.4;">Como posso sugerir novos gêneros ou moods?</a>
+              </h3>
+
+              <div class="d-flex align-items-center" style="margin-top: auto;">
+                <div class="post-meta">
+                  <p class="post-author" style="color: #b3b3b3; margin: 0;">Para enviar sugestões e feedback, <a href="vibe.html" target="_blank" rel="noopener" style="color: #29cc61; text-decoration: none;"><strong>clique aqui</strong></a>.</p>
+                </div>
+              </div>
+
+            </article>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+    <div class="container">
+      <h3 class="sitename">Moodify</h3>
+      <p>"Feliz, relaxado ou precisando de um boost? Descubra a playlist certa para cada vibe!</p>
+      <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-skype"></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <span>Copyright</span> <strong class="px-1 sitename">Moodify</strong> <span>All Rights Reserved</span>
+        </div>
+        <div class="credits">
+          Designed by <a href="">Moodify</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Rolar para cima -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Precarregamento -->
+  <div id="preloader"></div>
+
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/php-email-form/validate.js"></script>
+  <script src="vendor/aos/aos.js"></script>
+  <script src="vendor/typed.js/typed.umd.js"></script>
+  <script src="vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Arquivo Principal JS -->
+  <script src="js/main.js"></script>
+  <script src="js/auth.js"></script>
+
+  <script>
+    // Função de logout
+    async function logout() {
+      try {
+        const response = await fetch('forms/logout.php', { method: 'POST' });
+        const result = await response.json();
+        
+        if (result.status === 'success') {
+          alert('Logout realizado com sucesso!');
+          window.location.href = 'login.html';
+        } else {
+          alert('Erro ao fazer logout');
+        }
+      } catch (error) {
+        console.error('Erro no logout:', error);
+        alert('Erro ao fazer logout');
+      }
+    }
+
+    // FAQ Interativo
+    document.addEventListener('DOMContentLoaded', function() {
+      const faqItems = document.querySelectorAll('.faq-item');
+      
+      faqItems.forEach(item => {
+        const toggle = item.querySelector('.faq-toggle');
+        const content = item.querySelector('.faq-content');
+        
+        item.addEventListener('click', function() {
+          // Remove ativo de todos os outros itens
+          faqItems.forEach(otherItem => {
+            if (otherItem !== item) {
+              otherItem.classList.remove('faq-active');
+              const otherContent = otherItem.querySelector('.faq-content');
+              const otherToggle = otherItem.querySelector('.faq-toggle');
+              otherContent.style.maxHeight = null;
+              otherToggle.style.transform = 'rotate(0deg)';
+            }
+          });
+          
+          // Toggle do item atual
+          item.classList.toggle('faq-active');
+          
+          if (item.classList.contains('faq-active')) {
+            content.style.maxHeight = content.scrollHeight + 'px';
+            toggle.style.transform = 'rotate(90deg)';
+          } else {
+            content.style.maxHeight = null;
+            toggle.style.transform = 'rotate(0deg)';
+          }
+        });
+      });
+
+      // Inicializar o primeiro item como ativo
+      const firstItem = document.querySelector('.faq-item.faq-active');
+      if (firstItem) {
+        const firstContent = firstItem.querySelector('.faq-content');
+        const firstToggle = firstItem.querySelector('.faq-toggle');
+        firstContent.style.maxHeight = firstContent.scrollHeight + 'px';
+        firstToggle.style.transform = 'rotate(90deg)';
+      }
+    });
+  </script>
+
+</body>
+
+</html>
