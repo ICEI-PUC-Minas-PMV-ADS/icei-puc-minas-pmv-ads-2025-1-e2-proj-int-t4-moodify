@@ -36,7 +36,7 @@ Para registrar os indicadores de cada cenário, é preciso manter a coerência c
 
 | **Usuário**  | **Tempo Total (seg)** | **Quantidade de cliques** | **Tarefa foi concluída?** (Sim/Não) | **Erros Cometidos** | **Feedback do Usuário** |
 |-------------|--------------------|---------------------------------|-----------------|------------------------|------------------------------|
-| Usuário 1   |       2 segundos             |3 ou 4                                 |                 |                        |                              |                     |      
+| Usuário 1   |       2 segundos             |3 ou 4                 |  sim               |                        |                              |                     |      
 | Usuário 2   |                    |                                 |                 |                        |                              |                     |      
 | Usuário 3   |                    |                                 |                 |                        |                              |                     |  
 | Usuário 4   |                    |                                 |                 |                        |                              |                     | 
