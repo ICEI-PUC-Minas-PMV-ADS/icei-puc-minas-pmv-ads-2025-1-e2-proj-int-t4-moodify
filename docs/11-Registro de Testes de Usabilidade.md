@@ -34,7 +34,8 @@ Para registrar os indicadores de cada cenário, é preciso manter a coerência c
 **Cenário 3**: O usuário deseja acessar a seleção de humor do aplicativo para identificar qual a música que deseja escutar de acordo com seu humor.      
 | **Usuário**  | **Tempo Total (seg)** | **Quantidade de cliques** | **Tarefa foi concluída?** (Sim/Não) | **Erros Cometidos** | **Feedback do Usuário** |
 |-------------|--------------------|---------------------------------|-----------------|------------------------|------------------------------|
-| Usuário 1   |                    |                                 |                 |                        |                              |                     |      
+| Usuário 1   |     2 segundos               3 ou 4                       sim            Conecte-se ao Spotify primeiro para criar playlists!    Está tudo nos conformes.
+              |                                 |                 |                        |                              |                     |      
 | Usuário 2   |                    |                                 |                 |                        |                              |                     |      
 | Usuário 3   |                    |                                 |                 |                        |                              |                     |  
 | Usuário 4   |                    |                                 |                 |                        |                              |                     | 
@@ -65,7 +66,7 @@ Ele servirá como base para refinamentos no sistema e futuras iterações de tes
 Deve incluir: 
 - Taxa de sucesso por cenário
 - Tempo médio para completar cada cenário
-- Número médio de erros cometidos por tarefa
+- Número médio de erros cometidos por tarefa 
 - Taxa de abandono (usuários que não conseguiram concluir a tarefa do cenário)
 - Feedback qualitativo
   
