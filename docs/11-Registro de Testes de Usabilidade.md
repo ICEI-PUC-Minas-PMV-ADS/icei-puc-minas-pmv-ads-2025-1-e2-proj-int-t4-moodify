@@ -15,7 +15,7 @@ O registro de testes de usabilidade é um documento ou planilha onde são coleta
 | **Usuário**   | **Tempo Total (seg)** | **Quantidade de cliques** | **Tarefa foi concluída?** (Sim/Não) | **Erros Cometidos** | **Feedback do Usuário** |
 |-------------|--------------------|---------------------------------|-----------------|------------------------|------------------------------|
 | Victor Cesar | 5 segundos            |         3       |        Sim         |  Nenhum erro cometido. Login realizado com sucesso  |  Está tudo certo.     |                     |      
-| Lucas Abreu |  5 segundos            |         3       |       Não          | Incluia um "@" no endereço de email   | Não conseguiu realizar o login primeiramente pois esqueceu de incluir o "@" ao e-mail. Depois ocorreu tudo certo.         |                     |      
+| Lucas Abreu |  5 segundos            |         3       |       Não          | Inclua um "@" no endereço de email   | Não conseguiu realizar o login primeiramente pois esqueceu de incluir o "@" ao e-mail. Depois ocorreu tudo certo.         |                     |      
 |Zelia | 5 segundos                   |         3       |      Não           |  E-mail e/ou senha incoretos.    | Não conseguiu relizar o login.            |                     |      
 
 **Cenário 2**:         
