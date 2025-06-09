@@ -3,9 +3,9 @@
 O registro de testes de usabilidade é um documento ou planilha onde são coletadas e organizadas as informações sobre a experiência dos usuários ao interagir com um sistema. Ele inclui dados como tempo de execução de tarefas, taxa de sucesso, dificuldades encontradas, erros cometidos e _feedback_ dos usuários. Esse registro permite identificar padrões de uso, obstáculos/dificuldades encontrados na interface e oportunidades de melhoria, fornecendo _insights_ quantitativos e qualitativos para otimizar a experiência do usuário. Além disso, serve como base para análises, correções e futuras iterações do sistema, garantindo que ele atenda às necessidades do público-alvo de forma eficiente.
 
 ## Perfil dos usuários que participaram do teste
-- Zelia: 45 anos, nível básico incompleto, conhecimento básico tecnologia
-- Usuário: 18 anos, nível superior incompleto, conhecimento avançado tecnologia
-- Usuário: 70 anos, nível básico incompleto, conhecimento básico tecnologia
+- Zelia: 45 anos, nível básico incompleto, conhecimento básico em tecnologia.
+- Victor Cesar: 27 anos, nível medio completo, conhecimento médio em tecnologia.
+- Lucas Abreu: 28 anos, nível superior completo, conhecimento básico em tecnologia.
 - Usuário: 25 anos, nível superior completo, conhecimento avançado tecnologia
 - Usuário: 28 anos, nível superior completo, conhecimento avançado tecnologia
 
