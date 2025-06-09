@@ -21,7 +21,10 @@ O registro de testes de usabilidade é um documento ou planilha onde são coleta
 **Cenário 2**:         
 | **Usuário**  | **Tempo Total (seg)** | **Quantidade de cliques** | **Tarefa foi concluída?** (Sim/Não) | **Erros Cometidos** | **Feedback do Usuário** |
 |-------------|--------------------|---------------------------------|-----------------|------------------------|------------------------------|
-| Usuário   |                    |                                 |                 |                        |                              |                     |      
+| Eduardo   | 45    | 100    |  Não    | Esqueceu de adicionar "@" no campo email    | Poderia existir uma validação antes de clicar no botão de cadastrar   |                 | 
+| Roberta | 30 | 200 | Sim | Sem erros cometidos | Seguiu o fluxo esperado | |
+| Carla | 30 | 200 | Não | Adicionou a senha mas não conseguia viasualizar a própria senha | Adicionar uma maneira que possa visualizar a senha, para confirmar depois ||
+| Janaina | 75 | 50 | Sim | Sem erros | Cliente conseguiu finalizar o processo de cadastro, mas teve que atualizar seu CPF, porque percebeu que tinha errado mas o site não a avisou|  |
 
 **Cenário 3**: O usuário deseja acessar a seleção de humor do aplicativo para identificar qual a música que deseja escutar de acordo com seu humor.     
 
